@@ -21,8 +21,7 @@ sudo apt update -y && sudo apt upgrade -y
 ## Python Kurulu Değilse Yükleyelim
 
 ```bash
-sudo apt update
-sudo apt install python3.8 python3.8-venv python3.8-dev -y
+sudo apt install python3 python3-venv python3-pip -y
 ```
 ---
 
