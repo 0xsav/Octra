@@ -114,4 +114,4 @@ nano wallet.json
 ```
 
 - Terminalde çıkan görevleri sırayla tamamlamaya çalışın.
-- 3. adımı yapamıyorsanız, daha önce bir TX yapmadığınız içindir. Başkalarına Oct göndererek bu sorunu çözebilirsiniz.
+- Claim adımını yapamıyorsanız, daha önce bir TX yapmadığınız içindir. Başkalarına Oct göndererek bu sorunu çözebilirsiniz.
