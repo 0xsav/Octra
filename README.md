@@ -7,7 +7,7 @@
 ## Ön Hazırlık
 
 Testnet'e katılmak için bir **Octra cüzdanı** oluşturmanız gerekmektedir.  
-Cüzdan oluşturma adımlarını [burada]([[https://t.me/yourlinkhere](https://t.me/GoldenZoneWeb3/11466)]) anlattık:
+Cüzdan oluşturma adımlarını [burada]([https://t.me/GoldenZoneWeb3/11466]) anlattık:
 
 ---
 
@@ -16,6 +16,7 @@ Cüzdan oluşturma adımlarını [burada]([[https://t.me/yourlinkhere](https://t
 ```bash
 sudo apt update -y && sudo apt upgrade -y
 ```
+---
 
 ## Python kurulu değilse yükleyin
 
@@ -23,6 +24,7 @@ sudo apt update -y && sudo apt upgrade -y
 sudo apt update
 sudo apt install python3.8 python3.8-venv python3.8-dev -y
 ```
+---
 
 ## Octra Klasörü Oluşturun
 
@@ -30,6 +32,7 @@ sudo apt install python3.8 python3.8-venv python3.8-dev -y
 mkdir octra
 cd octra
 ```
+---
 
 ## Preclient Yükleme ve Çalıştırma
 
@@ -41,6 +44,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 cp wallet.json.example wallet.json
 ```
+---
 
 ## Cüzdan Bilgilerini Düzenleme
 
@@ -56,14 +60,16 @@ nano wallet.json
   "rpc": "https://octra.network"
 }
 ```
+---
 
 ## Preclient'i Çalıştırın
 
 ```bash
 ./run.sh
 ```
-
 - Terminalde çıkan adımları sırasıyla uygulayın. Birbirinize token göndererek işlem yapabilirsiniz. Kurcalayın. Her şeyi yapınca devam edin.
+
+---
 
 ## Rust Kuralım
 
@@ -72,6 +78,7 @@ cd
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 ```
+---
 
 ## Diğer Kısıma Geçelim
 
@@ -82,6 +89,7 @@ cd ocs01-test
 cargo build --release
 cp EI/exec_interface.json .
 ```
+---
 
 ## Tekrar Cüzdan Import Ediyoruz
 
@@ -97,6 +105,7 @@ nano wallet.json
   "rpc": "https://octra.network"
 }
 ```
+---
 
 ## Testi Başlatıyoruz
 
