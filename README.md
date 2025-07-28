@@ -6,19 +6,19 @@
 
 ## Ön Hazırlık
 
-Testnet'e katılmak için bir **Octra cüzdanı** oluşturmanız gerekmektedir.  
+Testnet'e katılmak için bir **Octra cüzdanı** oluşturmanız gerekiyor.  
 Cüzdan oluşturma adımlarını [burada](https://t.me/GoldenZoneWeb3/11466) anlattık:
 
 ---
 
-## Sunucuyu Güncelleyin
+## Sunucuyu Güncelleyelim
 
 ```bash
 sudo apt update -y && sudo apt upgrade -y
 ```
 ---
 
-## Python kurulu değilse yükleyin
+## Python Kurulu Değilse Yükleyelim
 
 ```bash
 sudo apt update
