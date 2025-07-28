@@ -7,7 +7,7 @@
 ## Ön Hazırlık
 
 Testnet'e katılmak için bir **Octra cüzdanı** oluşturmanız gerekmektedir.  
-Cüzdan oluşturma adımlarını [burada]([https://t.me/GoldenZoneWeb3/11466]) anlattık:
+Cüzdan oluşturma adımlarını [burada](https://t.me/GoldenZoneWeb3/11466) anlattık:
 
 ---
 
