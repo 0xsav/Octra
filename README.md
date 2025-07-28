@@ -28,14 +28,8 @@ sudo apt update -y && sudo apt upgrade -y
     ca-certificates lsb-release \
     curl wget git jq \
     screen tmux iptables nvme-cli \
-    unzip lz4 tar file nano btop htop ncdu bsdmainutils
-```
-
-
-## Python Kurulu Değilse Yükleyelim
-
-```bash
-sudo apt install python3 python3-venv python3-pip -y
+    unzip lz4 tar file nano btop htop ncdu bsdmainutils \
+    python3 python3-venv python3-pip
 ```
 ---
 
