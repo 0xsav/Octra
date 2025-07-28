@@ -76,6 +76,10 @@ nano wallet.json
 ```bash
 cd
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+Enter deyip devam ediyoruz.
+
+```bash
 source $HOME/.cargo/env
 ```
 ---
