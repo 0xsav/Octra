@@ -119,3 +119,4 @@ nano wallet.json
 
 - Terminalde çıkan görevleri sırayla tamamlamaya çalışın.
 - Claim adımını yapamıyorsanız, daha önce bir TX yapmadığınız içindir. Başkalarına Oct göndererek bu sorunu çözebilirsiniz.
+- Cüzdanınızı https://octrascan.io/ adresinden aratıp detaylara bakabilirsiniz
