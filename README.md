@@ -67,6 +67,7 @@ nano wallet.json
 ./run.sh
 ```
 - Terminalde çıkan adımları sırasıyla uygulayın. Birbirinize token göndererek işlem yapabilirsiniz. Kurcalayın. Her şeyi yapınca devam edin.
+- Çıkmak istiyorsanız exit dedikten sonra sanal ortamı "deactivate" yazarak kapatabilirsiniz.
 
 ---
 
