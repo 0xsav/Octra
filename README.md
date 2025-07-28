@@ -11,12 +11,26 @@ Cüzdan oluşturma adımlarını [burada](https://t.me/GoldenZoneWeb3/11466) anl
 
 ---
 
-## Sunucuyu Güncelleyelim
+## Sunucuyu güncelleyelim ve gerekli paketleri yükleyelim
 
 ```bash
 sudo apt update -y && sudo apt upgrade -y
 ```
 ---
+
+- Hepsini kopyalayıp yapıştırın
+
+```bash
+  sudo apt install -y \
+    build-essential pkg-config make gcc clang \
+    libssl-dev libffi-dev libreadline-dev zlib1g-dev \
+    libncurses5-dev libgdbm-dev libnss3-dev libleveldb-dev \
+    ca-certificates lsb-release \
+    curl wget git jq \
+    screen tmux iptables nvme-cli \
+    unzip lz4 tar file nano btop htop ncdu bsdmainutils
+```
+
 
 ## Python Kurulu Değilse Yükleyelim
 
